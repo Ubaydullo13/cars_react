@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    max-width:1300px;
+    margin: 0 auto;
 }
 .item {
     

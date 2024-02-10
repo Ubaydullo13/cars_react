@@ -4,7 +4,7 @@ import cars from './cars.json';
 function Home() {
     return (
         <>
-            <div>
+            <div className={styles.container}>
                 <h1>Cars catalog</h1>
                 <div className={styles.cards}>
                     {cars.map((car, index) => (
